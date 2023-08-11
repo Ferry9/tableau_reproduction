@@ -1,0 +1,132 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+
+}
+
+.entete{
+	background: red;
+	color: white;
+
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+
+}
+
+
+/*contenu principal*/
+
+main{
+
+	display:grid;
+
+	width: 60%;
+	box-shadow: 5px 5px 10px black, 0 0 5px grey;
+	gap: 2%;
+	margin-top: 1%;
+
+
+}
+
+/*contenu principal fin*/
+
+
+
+
+/*entête du tableau*/
+.entete_tab{
+
+	width: 95%;
+	
+}
+
+/*entête du tableau fin*/
+
+
+
+/*entête du tableau block interne*/
+.block{
+	display: flex;
+	padding-left: 5%;
+	justify-content: space-between;
+
+}
+/*entête du tableau block interne, fin*/
+
+
+
+/*couleur du texte entête*/
+
+.rouge{
+	color: red;
+}
+
+.noir{
+	text-decoration: underline;
+	text-decoration-color: red;
+	
+}
+
+/*couleur du texte entête*/
+
+
+/*tite de l'entête*/
+
+h4{
+	font-size: 1em;
+}
+
+/*tite de l'entête, fin*/
+
+
+
+/*Largeur du tableau*/
+
+table{
+	border-collapse: collapse;
+	width: 90%;
+
+}
+
+/*fin largeur du tableau*/
+
+
+
+
+
+
+.tab{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+tr, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+main{
+	
+	border: 1px solid black;
+
+}
+
+h5{
+	padding: 2%;
+	text-align: center;
+
+}
+
+
+
+
+
+/*Ecole 241, plus qu'une formation, un métier.*/
